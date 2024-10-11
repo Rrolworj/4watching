@@ -1,0 +1,498 @@
+*{
+    font-family: 'Cairo', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+
+#content{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(wallpaperflare.com_wallpaper\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+
+    
+
+
+    
+}
+#navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#navbar #nav-left{
+    margin: 20px;
+}
+#navbar #nav-left a{
+text-decoration: none;
+color: aliceblue;
+font-size: 30px;
+font-weight: 600;
+
+
+}
+
+#navbar #nav-center a:hover{
+    color: #a38524;
+}
+
+
+#navbar #nav-center a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    transition: 0.4s;
+
+}
+#nav-right{
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav-right span{
+    font-size: 35px;
+    color: aliceblue;
+    cursor: pointer;
+    margin-right: 10px;
+}
+#nav-right select{
+    background: none;
+    color: aliceblue;
+    margin-right: 10px;
+    font-size: 20px;
+    transition: 0.4s;
+
+}
+#nav-right select:hover{
+    background: none;
+    color: #4b4949;
+}
+#nav-right button{
+    background: none;
+    border: none;
+    padding: 15PX;
+    font-size: 15PX;
+    width: 160PX;
+    color: darkkhaki;
+    border-radius: 35PX;
+    border: solid #a38524;
+    transition: 0.4s;
+    font-weight: 700;
+}
+#nav-right button:hover{
+    background-color: darkorange;
+    color: #333
+}
+#center{
+    padding: 250px 30px;
+}
+#center h2{
+    margin-top: -60px;
+    margin-left: 15px;
+    color: chocolate;
+    font-size: 30px;
+    font-weight: 700
+}
+#center h1{
+    font-size: 33px;
+    color: aliceblue;
+    font-weight: 600;
+    margin-top: -20px;
+
+}
+#center h1 span{
+    color: #333;
+    font-size: 33px;
+    font-weight: 600;
+}
+#div-p p{
+background-color: aliceblue;
+display: inline-block;
+padding: 7px 11px;
+font-weight: 800;
+font-size: 8px;
+cursor: pointer;
+}
+#center button{
+    margin-right: 20px;
+   }
+#center button{
+    background: none;
+    border: none;
+    padding: 9px;
+    font-size: 14PX;
+    width: 120PX;
+    color: darkkhaki;
+    border-radius: 35PX;
+    border: solid #a38524;
+    transition: 0.4s;
+    font-weight: 700;
+    cursor: pointer;
+}
+#center button:hover{
+    background-color: darkorange;
+    color: #333
+}    
+#boss-me{
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    background-image: url(services_bg.jpg)
+    
+}
+#title{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin-left: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#title-left p{
+    font-size: 14px;
+    font-weight: 600;
+    color: darkorange;
+}
+#title-left h1{
+    font-size: 40px;
+    color: aliceblue;
+}
+#title-right a{
+    text-decoration: none;
+    color: aliceblue;
+margin-left: 10px;
+background-color: #21232b;
+padding: 15px;
+border-radius: 50px;
+border: solid #333 2px;
+transition: 0.5s;
+
+}
+
+#title-right a:focus{
+    border: solid #e5e216 2px;
+}
+#card{
+    margin-top: 20px;
+    margin-left: 30px;
+    position: relative;
+    overflow: hidden;
+    height: 450px;
+    border-radius: 14px;
+    width: 300px
+    
+}
+#poster{
+    position: relative;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%
+}
+#poster{
+    position: absolute;
+    top: 0;
+    left: 0;
+width: 100%;
+height: 100%;
+transition: 0.5;
+border-radius: 12px;
+
+
+
+
+}
+#title-right a{
+transition: 0.5s;
+
+}
+#title-right a :hover{
+    color: #a38524;
+}
+#title-left p{
+    margin-left: 10px;
+    
+
+}
+#datalest{
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 1.5em 1.5em 2em;
+    backdrop-filter: blur(16px);
+    background-color: #00000098;
+    transition: 0.5s;
+}
+#card:hover #datalest{
+    bottom: 0;
+    
+
+}
+#datalest h1{
+    margin-top: -10px;
+    color: #9c9c9c;
+    font-size: 26px;
+    font-weight: 800;
+
+
+}
+#datalest p{
+    color: aliceblue;
+
+}
+#div-center{
+    margin-bottom: 20px; 
+}
+#div-p button{
+    margin-left: 20px;
+}
+#div-star{
+    display: inline-block;
+}
+#div-star input{
+    display: none;
+
+}
+#div-star label{
+    float: right;
+    cursor: pointer;
+    color: aliceblue;
+    transition: 0.3s;
+
+
+}
+#div-star label::before{
+    content:"\2605" ;
+    font-size: 30px;
+
+}
+
+
+
+    
+   
+    
+    #div-star input:checked ~ label,
+    #div-star label:hover ,
+    #div-star label:hover ~ label{
+        color: #a38524;
+        transition: 0.3s;
+     }
+     #datalest button{
+display: flex;
+align-items:center ;
+background: none;
+border: none;
+padding: 9px;
+font-size: 13PX;
+width: 170PX;
+color: rgb(255, 255, 255);
+border-radius: 35PX;
+border: solid #a38524;
+transition: 0.4s;
+font-weight: 700;
+cursor: pointer;
+
+     }
+     
+
+     
+     #datalest button:hover{
+        background-color: #a38524;
+        color: #21232b;
+
+     }
+     #poster img{
+        display: flex;
+        height: 100%;
+        width: 100%;
+     }
+    #live{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+height: 100%;
+background-image: url(img/pg/live_bg.jpg);
+background-repeat: no-repeat;
+background-position: top;
+    }
+    #live-left{
+        margin-left: 20PX;  
+       }
+
+ #live-left #p1{
+    color: #5a1717;
+    font-size: 15PX;
+    font-weight: 600;
+   }
+
+   #live-left #p1{
+    font-size: 20px;
+    margin-bottom: 250px
+    
+   }
+   #live-left h1 span{
+    color: #f78030;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    margin-left: 20px;
+   }
+
+   #live-left h1{
+    color: #333;
+    font-size: 25px;
+    font-weight: 800;
+   }
+  #live #live-left button{
+    
+
+background: #e5e216;
+display: flex;
+align-items: center;
+justify-content: center;
+border: none;
+padding: 18px;
+font-size: 15PX;
+width: 160PX;
+height: 60px;
+color: #333;
+border-radius: 35PX;
+border: solid #e5e216;
+transition: 0.4s;
+font-weight: 700;
+cursor: pointer;
+
+  }
+  #live #live-left button:hover{
+    background: none;
+    border: #e5e216 solid 2px;
+
+
+  }
+#title2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#title2 #div-h1-p p{
+    font-weight: 600;
+    color: darkorange;
+    text-align: center;
+
+font-size: 12px;
+}
+#title2 #div-h1-p h1{
+    font-size: 28px;
+    color: aliceblue;
+
+}
+     
+
+#info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    height: 100%;
+    background-image: url(img/pg/footer_bg.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+
+
+
+}
+#info #logo a{
+    text-decoration: none;
+    color: darkorange ;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+#info #info-r a{
+text-decoration: none;
+color: aliceblue;
+font-size: 18px;
+margin-right: 15px;
+font-weight: 700;
+transition: 0.5s;
+}
+#info #info-r a:hover{
+    color: #e5e216;
+}
+#info #info-r input{
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    border-radius: 40px;width: 200px;
+    border: solid darkorange 1px;
+    color: #ffffff;
+    font-size: 14px;
+
+    
+
+}
+#part5{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding: 20px;
+    background: #21232b;
+}
+#part5 h3{
+color: #ffffff;
+
+
+}
+#part5 a{
+    text-decoration: none;
+    color: darkorange;
+}
+#live #p1{
+
+cursor: pointer;
+}
+button #the{
+    color: #c2c0be;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50PX;
+}
+#tor{
+    color: #8f1e1e;
+    margin-top: -30px;
+
+ }
+ #info #info-r{
+    color: #8f1e1e;
+ }
+
+
+
+
+
+
